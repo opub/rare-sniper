@@ -1,0 +1,23 @@
+{
+    "magiceden": {
+        "api": "https://api-mainnet.magiceden.dev/v2",
+        "requestsPerSecond": 2
+    },
+    "raritySettings": {
+        "oneOfOneThreshold": true,
+        "percentThreshold": 1,
+        "scanIntervalMinutes": 10
+    },
+    "collectionAnalysis": {
+        "cacheFullCollectionData": true,
+        "cacheExpireHours": 168,
+        "maxNFTsToFetch": 10000
+    },
+    "notifications": {
+        "discord": {
+            "enabled": true,
+            "webhookUrl": "https://discord.com/api/webhooks/1369482308431904930/FeafvYH9Af18Dtl07ZQuFrGQ_HqpmTHOJ0Q7ZtPODTUY1w9kTtOYx3gQbVHT5YkhsShP",
+            "username": "ME Rare Sniper"
+        }
+    }
+}
